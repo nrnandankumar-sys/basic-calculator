@@ -135,10 +135,8 @@ This project helped in understanding:
 
 ## Author
 
-Nandan Kumar
+N R Nandan Kumar
 
 ---
-
-## GitHub Repository
 
 [Add Your GitHub Repository Link Here]
