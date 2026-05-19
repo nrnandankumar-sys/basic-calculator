@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calci">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="clearvalue()" class="clear">C</button>
+            <button onclick="backspace()" class="backspace">&#9003;</button>
+            <button onclick="append('/')" class="oper">&#x2797;</button>
+            <button onclick="append('*')" class="oper">x</button>
+            <button onclick="append('7')" class="number">7</button>
+            <button onclick="append('8')" class="number">8</button>
+            <button onclick="append('9')" class="number">9</button>
+            <button onclick="append('-')" class="oper">-</button>
+            <button onclick="append('4')" class="number">4</button>
+            <button onclick="append('5')" class="number">5</button>
+            <button onclick="append('6')" class="number">6</button>
+            <button onclick="append('+')" class="oper">+</button>
+            <button onclick="append('3')" class="number">3</button>
+            <button onclick="append('2')" class="number">2</button>
+            <button onclick="append('1')" class="number">1</button>
+            <button onclick="append('%')" class="oper">%</button>
+            <button onclick="append('0')" class="number">0</button>
+            <button onclick="append('.')" class="number">.</button>
+            <button onclick="solve()" class="equal">=</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
